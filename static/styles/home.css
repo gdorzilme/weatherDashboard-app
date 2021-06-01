@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(175deg, lightblue, skyblue, darkgrey, navy);
+
+}
+
+.weatherText {
+    font-family: 'Sansita', 'sans-serif';
+    font-size: 24px;
+}
+
+h2 {
+
+    padding-left: 20px;
+}
+
+
+#weatherForm {
+    padding: 20px;
+}
+
+#weatherSubmit {
+
+    color: white;
+    background-color: blue;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top:20px;
+}
+
+#weatherSubmit:hover {
+    cursor: pointer;
+}

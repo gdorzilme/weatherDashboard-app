@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(185deg, skyblue, darkgrey);
+}
+
+#weatherResults {
+    background-color: blue;
+    color: whitesmoke;
+    font-family: 'Sansita', 'sans-serif';
+    font-size: 24px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#returnHome {
+    display: inline-block;
+    align-items: center;
+} 
+
+.homeButton {
+    background-color: lightgrey;
+    color: whitesmoke;
+    font-family: 'Sansita', 'sans-serif';
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    text-shadow: 1px, 1px, 1px #000;
+}
+
+
+.homeButton:hover {
+    cursor: pointer;
+}
