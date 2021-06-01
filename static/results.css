@@ -10,3 +10,21 @@
     border-radius: 10px;
 }
 
+#returnHome {
+    display: inline-block;
+    align-items: center;
+} 
+
+.homeButton {
+    background-color: gray;
+    color: whitesmoke;
+    font-family: 'Sansita', 'sans-serif';
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    text-shadow: 1px, 1px, 1px #000;
+}
+
+.homeButton:hover {
+    cursor: pointer;
+}
