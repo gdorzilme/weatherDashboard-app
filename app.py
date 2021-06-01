@@ -20,7 +20,9 @@ def render_results():
     weather = data["weather"][0]["main"]
     location = data["name"]
 
-
+    #Associate jinja2 variables from results.html page with variables in the function which parsed API data
+    return render_template('results.html', location=location, temp=temp,
+                           feels_like=feels_like, weather=weather)
 
 def get_api_key():
     config = configparser.ConfigParser()
